@@ -101,3 +101,14 @@ button:hover {
 #result.show {
     opacity: 1;
 }
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
